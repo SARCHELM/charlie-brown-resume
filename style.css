@@ -50,11 +50,11 @@ a:link, a:visited, a:active {color: brown}
 
 a:hover {color:#CFA242}
 
+/* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
+
 .header {
 	transform: rotateX(150deg);
 }
-
-.addborder { border: 4px CFA242; } 
 
 .btn-secondary {
     --bs-btn-color: #fff;
@@ -72,5 +72,3 @@ a:hover {color:#CFA242}
     --bs-btn-disabled-bg: #E0B048;
     --bs-btn-disabled-border-color: #E0B048;
 }
-
-/* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
