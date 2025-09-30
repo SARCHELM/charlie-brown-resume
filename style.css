@@ -29,7 +29,7 @@ h2 {
 		color: white;
 		background-color: #E0B048;
 		text-transform: uppercase;
-		width: 350px;
+		width: 80%;
  		border: 5px solid #CFA242;
   	padding: 5px;
  		margin: 2px;
@@ -49,3 +49,28 @@ img {
 a:link, a:visited, a:active {color: brown}
 
 a:hover {color:#CFA242}
+
+.header {
+	transform: rotateX(150deg);
+}
+
+.addborder { border: 4px CFA242; } 
+
+.btn-secondary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #E0B048;
+    --bs-btn-border-color: #E0B048;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #E0B048;
+    --bs-btn-hover-border-color: #E0B048;
+    --bs-btn-focus-shadow-rgb: 130, 138, 145;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #E0B048;
+    --bs-btn-active-border-color: #E0B048;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #E0B048;
+    --bs-btn-disabled-border-color: #E0B048;
+}
+
+/* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
